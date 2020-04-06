@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{margin: 0px; padding: 0px;}
+html{font-size: 100%;}
+ul { list-style: none;}
+a, li {text-decoration: none !important;}
+a img{border:none !important;}
+body{background-color: black;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+
+
+#wrapper {
+	height: 100%;
+	width: 960px;
+}
+
+header {
+	width: 960px;
+	color:white;
+	margin: auto;
+	margin-top: 200px;
+	font-size: 150px;
+	clear: both;
+}
+
+@keyframes cambioColore{
+from{
+color: white;
+} to{
+color: black;
+}
+}
+
+.animazione_titolo {
+	animation-name: cambioColore;
+	animation-duration: 3s;
+	animation-delay: 1.5s;
+	animation-fill-mode: forwards;
+}
+
+section {
+	width: 960px;
+	margin: auto;
+	font-size: 35px;
+	color: black;
+}
+
+@keyframes cambioColore1{
+0% {
+color: black;
+} 
+50% {
+color: white;
+} 
+100%{
+color: black;
+}
+}
+
+.animazione_1 {
+	animation-name: cambioColore1;
+	animation-duration: 3s;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+
+}
+
+.animazione_2 {
+	animation-name: cambioColore1;
+	animation-duration: 3s;
+	animation-delay: 8s;
+	animation-fill-mode: forwards;
+
+}
+
+.animazione_3 {
+	animation-name: cambioColore1;
+	animation-duration: 5s;
+	animation-delay: 11s;
+	animation-fill-mode: forwards;
+
+}
+
+.animazione_4 {
+	animation-name: cambioColore1;
+	animation-duration: 3s;
+	animation-delay: 16s;
+	animation-fill-mode: forwards;
+
+}
+
+
+
+article {
+ 	margin: auto;
+   	width: 250px;
+    height: 35px;
+    border-radius: 100px;
+	background-color: black;
+    color: black;
+    font-size: 20px;
+	padding-top: 10px;
+    text-align: center;
+	
+}
+
+@keyframes cambioColoreCTA{
+from{
+background-color: black;
+} to{
+background-color: white;
+}
+}
+
+.animazione_CTA {
+	animation-name: cambioColoreCTA;
+	animation-duration: 3s;
+	animation-delay: 18s;
+	animation-fill-mode: forwards;
+}
+
